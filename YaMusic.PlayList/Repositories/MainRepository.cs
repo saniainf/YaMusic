@@ -5,11 +5,11 @@ using YaMusic.PlayListView.Models;
 
 namespace YaMusic.PlayListView.Repositories
 {
-    internal class PlayListRepository
+    internal class MainRepository
     {
         private readonly DbContextOptions<AppDbContext> _options;
 
-        public PlayListRepository(DbContextOptions<AppDbContext> options)
+        public MainRepository(DbContextOptions<AppDbContext> options)
         {
             _options = options;
         }
@@ -117,7 +117,7 @@ namespace YaMusic.PlayListView.Repositories
             return await query.ToListAsync();
         }
 
-        public async Task<IEnumerable<TrackViewModel>> GetPlayListTracksAsync(int id)
+        public async Task<IEnumerable<TrackViewModel>> GetTracksByPlayListAsync(int playListId)
         {
             using AppDbContext dbContext = new(_options);
 
@@ -127,7 +127,7 @@ namespace YaMusic.PlayListView.Repositories
                 .Include(t => t.PlayLists)
                 .Include(t => t.Artists)
                 .Include(t => t.Albums)
-                .Where(t => t.PlayLists.Any(p => p.Id == id))
+                .Where(t => t.PlayLists.Any(p => p.Id == playListId))
                 .Select(t => new TrackViewModel()
                 {
                     Id = t.Id,
@@ -150,20 +150,36 @@ namespace YaMusic.PlayListView.Repositories
             return await query.ToListAsync();
         }
 
-        //public async Task<TrackDto> GetTrack(int id)
-        //{
-        //    using AppDbContext dbContext = new(_options);
+        public async Task<IEnumerable<TrackViewModel>> GetTracksByAlbumAsync(int albumId)
+        {
+            using AppDbContext dbContext = new(_options);
 
-        //    var query = await Task.Run(() =>
-        //    {
-        //        return dbContext.Tracks
-        //        .Include(t => t.Artists)
-        //        .Include(t => t.Albums)
-        //        .Include(t => t.PlayLists)
-        //        .Where(t => t.Id == id);
-        //    });
+            var query = await Task.Run(() =>
+            {
+                return dbContext.Tracks
+                .Include(t => t.Artists)
+                .Include(t => t.Albums)
+                .Where(t => t.Albums.Any(a => a.Id == albumId))
+                .Select(t => new TrackViewModel()
+                {
+                    Id = t.Id,
+                    Title = t.Title,
+                    Artists = t.Artists.Select(a => new ArtistViewModel()
+                    {
+                        Id = a.Id,
+                        Name = a.Name
+                    }),
+                    Albums = t.Albums.Select(a => new AlbumViewModel()
+                    {
+                        Id = a.Id,
+                        Title = a.Title,
+                        Genre = a.Genre ?? string.Empty,
+                        Year = a.Year ?? 0
+                    }),
+                });
+            });
 
-        //    return await query.FirstOrDefaultAsync() ?? new();
-        //}
+            return await query.ToListAsync();
+        }
     }
 }
