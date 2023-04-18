@@ -181,5 +181,19 @@ namespace YaMusic.PlayListView.Repositories
 
             return await query.ToListAsync();
         }
+
+        public async void InsertTracksAsync(IEnumerable<TrackDto> tracks)
+        {
+            using AppDbContext dbContext = new(_options);
+            foreach (var track in tracks)
+            {
+                if (!dbContext.Tracks.Any(t => t.Id == track.Id))
+                {
+                    MessageBox.Show(track.Id.ToString());
+                    await dbContext.Tracks.AddAsync(track);
+                }
+            }
+            await dbContext.SaveChangesAsync();
+        }
     }
 }

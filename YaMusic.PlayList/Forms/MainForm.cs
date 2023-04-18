@@ -1,10 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.IO;
+using System.Text.Json;
 using YaMusic.PlayListView.Controllers;
 using YaMusic.PlayListView.Domain;
 using YaMusic.PlayListView.Forms.Components;
 using YaMusic.PlayListView.Models;
 using YaMusic.PlayListView.Repositories;
+using YaMusic.PlayListView.Services.Models;
 
 namespace YaMusic.PlayListView.Forms
 {
@@ -56,6 +59,19 @@ namespace YaMusic.PlayListView.Forms
             {
                 tabAlbum.Controls.Add(tab);
             }
+        }
+
+        private void btnLoadAlbum_ClickAsync(object sender, EventArgs e)
+        {
+            if (tabAlbum.TabPages.Count == 0) return;
+            var id = int.TryParse(tabAlbum.SelectedTab.Tag.ToString(), out int result) ? result : 0;
+            if (id == 0) return;
+            _controller.UpdateAlbum(id);
+        }
+
+        private void btnLoadArtist_Click(object sender, EventArgs e)
+        {
+            tbxSearch.Text = tabAlbum.SelectedTab?.Tag.ToString();
         }
     }
 }

@@ -10,20 +10,19 @@ namespace YaMusic.PlayListView.Forms.Components
     {
         public ArtistAlbumListComponent() : base()
         {
-            Location = new Point(6, 6);
-            Size = new Size(349, 200);
-            UseCompatibleStateImageBehavior = false;
+            Dock = DockStyle.Fill;
             View = View.Details;
             LabelEdit = false;
             AllowColumnReorder = false;
             FullRowSelect = true;
             GridLines = true;
             Sorting = SortOrder.None;
+            UseCompatibleStateImageBehavior = false;
 
             Columns.Add("#", -2, HorizontalAlignment.Left);
-            Columns.Add("Title", -2, HorizontalAlignment.Left);
-            Columns.Add("Year", -2, HorizontalAlignment.Left);
-            Columns.Add("Genre", -2, HorizontalAlignment.Left);
+            Columns.Add("Название", -2, HorizontalAlignment.Left);
+            Columns.Add("Год", -2, HorizontalAlignment.Left);
+            Columns.Add("Жанр", -2, HorizontalAlignment.Left);
         }
     }
 }

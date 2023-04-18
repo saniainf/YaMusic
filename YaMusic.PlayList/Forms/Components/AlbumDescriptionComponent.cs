@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace YaMusic.PlayListView.Forms.Components
+﻿namespace YaMusic.PlayListView.Forms.Components
 {
-    internal class AlbumDescriptionComponent
+    internal class AlbumDescriptionComponent : Panel
     {
-        public AlbumDescriptionComponent()
+        public AlbumDescriptionComponent() : base()
         {
-            
+            Dock = DockStyle.Fill;
+            BackColor = Color.Silver;
         }
     }
 }

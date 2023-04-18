@@ -1,0 +1,2498 @@
+{
+  "id": 154,
+  "title": "Stop!",
+  "metaType": "music",
+  "year": 1988,
+  "releaseDate": "1988-01-01T00:00:00+03:00",
+  "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+  "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+  "genre": "pop",
+  "metaTagId": "58e3c0796ebb3476087d190b",
+  "trackCount": 15,
+  "likesCount": 341,
+  "recent": false,
+  "veryImportant": false,
+  "artists": [
+    {
+      "id": 1638,
+      "name": "Sam Brown",
+      "various": false,
+      "composer": false,
+      "cover": {
+        "type": "from-album-cover",
+        "prefix": "60c5255d.a.2515612-1",
+        "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+      },
+      "genres": []
+    }
+  ],
+  "labels": [
+    {
+      "id": 7818,
+      "name": "A&M"
+    }
+  ],
+  "available": true,
+  "availableForPremiumUsers": true,
+  "availableForOptions": [ "bookmate" ],
+  "availableForMobile": true,
+  "availablePartially": false,
+  "bests": [ 1712, 1729, 1721 ],
+  "duplicates": [
+    {
+      "id": 2515612,
+      "title": "Stop!",
+      "metaType": "music",
+      "year": 1988,
+      "releaseDate": "1988-01-01T00:00:00+03:00",
+      "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+      "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+      "genre": "pop",
+      "trackCount": 15,
+      "likesCount": 25,
+      "recent": false,
+      "veryImportant": false,
+      "artists": [
+        {
+          "id": 1638,
+          "name": "Sam Brown",
+          "various": false,
+          "composer": false,
+          "cover": {
+            "type": "from-album-cover",
+            "prefix": "60c5255d.a.2515612-1",
+            "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+          },
+          "genres": []
+        }
+      ],
+      "labels": [
+        {
+          "id": 7818,
+          "name": "A&M"
+        }
+      ],
+      "available": true,
+      "availableForPremiumUsers": true,
+      "availableForOptions": [ "bookmate" ],
+      "availableForMobile": true,
+      "availablePartially": false,
+      "bests": [ 1712, 1729, 1721 ]
+    }
+  ],
+  "customWave": {
+    "title": "Stop!",
+    "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+  },
+  "sortOrder": "asc",
+  "volumes": [
+    [
+      {
+        "id": "1729",
+        "realId": "1729",
+        "title": "Walking Back To Me",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 226690,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -16.81,
+          "tp": -0.18
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 1
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": true,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": true,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1704",
+        "realId": "1704",
+        "title": "Your Love Is All",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 249570,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -16.55,
+          "tp": 0.3
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 2
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": false,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1721",
+        "realId": "1721",
+        "title": "Stop",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 294360,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -8,
+          "tp": 1.88
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 3
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": true,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": true,
+          "hasAvailableTextLyrics": true
+        },
+        "best": true,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1714",
+        "realId": "1714",
+        "title": "It Makes Me Wonder",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 276680,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -18.68,
+          "tp": -0.03
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 4
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": true,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1723",
+        "realId": "1723",
+        "title": "This Feeling",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 195780,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -16.09,
+          "tp": -1.92
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 5
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": true,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1719",
+        "realId": "1719",
+        "title": "Tea",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 44010,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -17.88,
+          "tp": -3.9
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 6
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": false,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1725",
+        "realId": "1725",
+        "title": "Piece Of My Luck",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 180240,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -20.89,
+          "tp": -3.66
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 7
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": false,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1708",
+        "realId": "1708",
+        "title": "Ball And Chain",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 275330,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -17.92,
+          "tp": 0.33
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 8
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": false,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1728",
+        "realId": "1728",
+        "title": "Wrap Me Up",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 193300,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -17.15,
+          "tp": 0.31
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 9
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": false,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1710",
+        "realId": "1710",
+        "title": "I'll Be In Love",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 317460,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -17.69,
+          "tp": -0.98
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 10
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": true,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1712",
+        "realId": "1712",
+        "title": "Merry Go Round",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 187840,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -17.34,
+          "tp": -1.06
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 11
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": true,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": true,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1726",
+        "realId": "1726",
+        "title": "Sometimes You Just Don't Know",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 186980,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -17.86,
+          "tp": -0.24
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 12
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": false,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1727",
+        "realId": "1727",
+        "title": "Can I Get A Witness",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 184030,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -16.15,
+          "tp": -2.34
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 13
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": true,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": true,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1706",
+        "realId": "1706",
+        "title": "High As A Kite",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 206650,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -18.16,
+          "tp": -2.93
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 14
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": true,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": false,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      },
+      {
+        "id": "1716",
+        "realId": "1716",
+        "title": "Nutbush City Limits",
+        "trackSource": "OWN",
+        "major": {
+          "id": 1,
+          "name": "UNIVERSAL_MUSIC"
+        },
+        "available": true,
+        "availableForPremiumUsers": true,
+        "availableFullWithoutPermission": false,
+        "availableForOptions": [ "bookmate" ],
+        "durationMs": 265350,
+        "storageDir": "",
+        "fileSize": 0,
+        "r128": {
+          "i": -18.23,
+          "tp": 0.5
+        },
+        "previewDurationMs": 30000,
+        "artists": [
+          {
+            "id": 1638,
+            "name": "Sam Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "60c5255d.a.2515612-1",
+              "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+            },
+            "genres": []
+          },
+          {
+            "id": 26303,
+            "name": "Pete Brown",
+            "various": false,
+            "composer": false,
+            "cover": {
+              "type": "from-album-cover",
+              "prefix": "71d6f789.a.313751-1",
+              "uri": "avatars.yandex.net/get-music-content/49876/71d6f789.a.313751-1/%%"
+            },
+            "genres": []
+          }
+        ],
+        "albums": [
+          {
+            "trackPosition": {
+              "volume": 1,
+              "index": 15
+            },
+            "redirected": false,
+            "pager": {
+              "total": 15,
+              "page": 0,
+              "perPage": 15
+            },
+            "volumes": null,
+            "sortOrder": "asc",
+            "customWave": {
+              "title": "Stop!",
+              "animationUrl": "https://music-custom-wave-media.s3.yandex.net/base.json"
+            },
+            "duplicates": [
+              {
+                "id": 2515612,
+                "title": "Stop!",
+                "metaType": "music",
+                "year": 1988,
+                "releaseDate": "1988-01-01T00:00:00+03:00",
+                "coverUri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "ogImage": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%",
+                "genre": "pop",
+                "trackCount": 15,
+                "likesCount": 25,
+                "recent": false,
+                "veryImportant": false,
+                "artists": [
+                  {
+                    "id": 1638,
+                    "name": "Sam Brown",
+                    "various": false,
+                    "composer": false,
+                    "cover": {
+                      "type": "from-album-cover",
+                      "prefix": "60c5255d.a.2515612-1",
+                      "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                    },
+                    "genres": []
+                  }
+                ],
+                "labels": [
+                  {
+                    "id": 7818,
+                    "name": "A&M"
+                  }
+                ],
+                "available": true,
+                "availableForPremiumUsers": true,
+                "availableForOptions": [ "bookmate" ],
+                "availableForMobile": true,
+                "availablePartially": false,
+                "bests": [ 1712, 1729, 1721 ]
+              }
+            ],
+            "bests": [ 1712, 1729, 1721 ],
+            "availablePartially": false,
+            "availableForMobile": true,
+            "availableForOptions": [ "bookmate" ],
+            "availableForPremiumUsers": true,
+            "available": true,
+            "labels": [
+              {
+                "id": 7818,
+                "name": "A&M"
+              }
+            ],
+            "artists": [
+              {
+                "id": 1638,
+                "name": "Sam Brown",
+                "various": false,
+                "composer": false,
+                "cover": {
+                  "type": "from-album-cover",
+                  "prefix": "60c5255d.a.2515612-1",
+                  "uri": "avatars.yandex.net/get-music-content/49707/60c5255d.a.2515612-1/%%"
+                },
+                "genres": []
+              }
+            ],
+            "veryImportant": false,
+            "recent": false,
+            "likesCount": 341,
+            "trackCount": 15,
+            "metaTagId": "58e3c0796ebb3476087d190b",
+            "genre": "pop",
+            "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+            "releaseDate": "1988-01-01T00:00:00+03:00",
+            "year": 1988,
+            "metaType": "music",
+            "title": "Stop!",
+            "id": 154
+          }
+        ],
+        "coverUri": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "ogImage": "avatars.yandex.net/get-music-content/49707/88225ce3.a.154-1/%%",
+        "lyricsAvailable": true,
+        "lyricsInfo": {
+          "hasAvailableSyncLyrics": true,
+          "hasAvailableTextLyrics": true
+        },
+        "best": false,
+        "type": "music",
+        "rememberPosition": false,
+        "trackSharingFlag": "VIDEO_ALLOWED"
+      }
+    ]
+  ],
+  "pager": {
+    "total": 15,
+    "page": 0,
+    "perPage": 15
+  },
+  "redirected": false
+}

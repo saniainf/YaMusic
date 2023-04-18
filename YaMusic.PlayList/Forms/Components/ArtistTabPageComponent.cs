@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace YaMusic.PlayListView.Forms.Components
 {
@@ -14,7 +15,7 @@ namespace YaMusic.PlayListView.Forms.Components
         public PictureBox Picture => _picture;
         private readonly ArtistPictureComponent _picture;
 
-        public TextBox Description => _description;
+        public ArtistDescriptionComponent Description => _description;
         private readonly ArtistDescriptionComponent _description;
 
         public ArtistTabPageComponent() : base()
@@ -22,9 +23,14 @@ namespace YaMusic.PlayListView.Forms.Components
             _albumList = new();
             _picture = new();
             _description = new();
-            Controls.Add(_albumList);
-            Controls.Add(_picture);
-            Controls.Add(_description);
+            ArtistTableLayoutComponent panel = new();
+
+            panel.Controls.Add(_albumList, 0, 0);
+            panel.SetRowSpan(_albumList, 2);
+            panel.Controls.Add(_picture, 1, 0);
+            panel.Controls.Add(_description, 1, 1);
+
+            Controls.Add(panel);
         }
     }
 }

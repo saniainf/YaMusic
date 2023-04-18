@@ -22,8 +22,14 @@ namespace YaMusic.PlayListView.Forms.Components
             _trackList = new();
             _picture = new();
             _description = new();
-            Controls.Add(_trackList);
-            Controls.Add(_picture);
+            AlbumTableLayoutComponent panel = new();
+
+            panel.Controls.Add(_trackList, 0, 0);
+            panel.SetRowSpan(_trackList, 2);
+            panel.Controls.Add(_picture, 1, 0);
+            panel.Controls.Add(_description, 1, 1);
+
+            Controls.Add(panel);
         }
     }
 }
