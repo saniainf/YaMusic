@@ -5,5 +5,14 @@
     <Setting Name="ConnectionStrings" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Server=(localdb)\MSSQLLocalDB;Database=YaMusic;Trusted_Connection=True;</Value>
     </Setting>
+    <Setting Name="AlbumConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://music.yandex.ru/handlers/album.jsx?album=</Value>
+    </Setting>
+    <Setting Name="ArtistConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://music.yandex.ru/handlers/artist.jsx?artist=</Value>
+    </Setting>
+    <Setting Name="TrackConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://music.yandex.ru/handlers/track.jsx?track=</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

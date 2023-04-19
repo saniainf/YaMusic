@@ -14,7 +14,7 @@ namespace YaMusic.PlayListView.Repositories
             _options = options;
         }
 
-        public async Task<PlayListViewModel> GetPlayList(int playListId)
+        public async Task<PlayListViewModel> GetPlayListAsync(int playListId)
         {
             using AppDbContext dbContext = new(_options);
 
@@ -32,7 +32,7 @@ namespace YaMusic.PlayListView.Repositories
             return await query.FirstOrDefaultAsync() ?? new();
         }
 
-        public async Task<IEnumerable<PlayListViewModel>> GetPlayLists()
+        public async Task<IEnumerable<PlayListViewModel>> GetPlayListsAsync()
         {
             using AppDbContext dbContext = new(_options);
 
@@ -49,7 +49,7 @@ namespace YaMusic.PlayListView.Repositories
             return await query.ToListAsync();
         }
 
-        public async Task<IEnumerable<AlbumViewModel>> GetAlbumsByArtist(int artistId)
+        public async Task<IEnumerable<AlbumViewModel>> GetAlbumsByArtistAsync(int artistId)
         {
             using AppDbContext dbContext = new(_options);
 
@@ -74,7 +74,7 @@ namespace YaMusic.PlayListView.Repositories
             return await query.ToListAsync();
         }
 
-        public async Task<IEnumerable<AlbumViewModel>> GetAlbumsByTrack(int trackId)
+        public async Task<IEnumerable<AlbumViewModel>> GetAlbumsByTrackAsync(int trackId)
         {
             using AppDbContext dbContext = new(_options);
 
@@ -96,7 +96,7 @@ namespace YaMusic.PlayListView.Repositories
             return await query.ToListAsync();
         }
 
-        public async Task<IEnumerable<ArtistViewModel>> GetArtistsByTrack(int trackId)
+        public async Task<IEnumerable<ArtistViewModel>> GetArtistsByTrackAsync(int trackId)
         {
             using AppDbContext dbContext = new(_options);
 
@@ -182,17 +182,73 @@ namespace YaMusic.PlayListView.Repositories
             return await query.ToListAsync();
         }
 
-        public async void InsertTracksAsync(IEnumerable<TrackDto> tracks)
+        public async Task<AlbumViewModel> GetAlbumById(int albumId)
         {
             using AppDbContext dbContext = new(_options);
+
+            var query = await Task.Run(() =>
+            {
+                return dbContext.Albums
+                .Where(a => a.Id == albumId)
+                .Select(a => new AlbumViewModel()
+                {
+                    Id = a.Id,
+                    Title = a.Title,
+                    Genre = a.Genre ?? string.Empty,
+                    Year = a.Year ?? 0
+                });
+            });
+
+            return query.FirstOrDefault() ?? new();
+        }
+
+        public async Task InsertTracksAsync(IEnumerable<TrackDto> tracks)
+        {
+            using AppDbContext dbContext = new(_options);
+            Dictionary<int, AlbumDto> newAlbums = new();
+            Dictionary<int, ArtistDto> newArtists = new();
+            Dictionary<int, TrackDto> newTracks = new();
+
             foreach (var track in tracks)
             {
                 if (!dbContext.Tracks.Any(t => t.Id == track.Id))
                 {
-                    MessageBox.Show(track.Id.ToString());
-                    await dbContext.Tracks.AddAsync(track);
+                    newTracks.Add(track.Id, new()
+                    {
+                        Id = track.Id,
+                        Title = track.Title,
+                        DurationMs = track.DurationMs,
+                        CoverUri = track.CoverUri,
+                        LyricsAvailable = track.LyricsAvailable
+                    });
+                    foreach (var album in track.Albums)
+                    {
+                        if (!newAlbums.ContainsKey(album.Id))
+                            if (!dbContext.Albums.Any(a => a.Id == album.Id))
+                                newAlbums.Add(album.Id, album);
+                            else
+                                newAlbums.Add(album.Id, dbContext.Albums.FirstOrDefault(a => a.Id == album.Id)!);
+                    }
+                    foreach (var artist in track.Artists)
+                    {
+                        if (!newArtists.ContainsKey(artist.Id))
+                            if (!dbContext.Artists.Any(a => a.Id == artist.Id))
+                                newArtists.Add(artist.Id, artist);
+                            else
+                                newArtists.Add(artist.Id, dbContext.Artists.FirstOrDefault(a => a.Id == artist.Id)!);
+                    }
                 }
             }
+            foreach (var track in tracks)
+            {
+                if (!newTracks.ContainsKey(track.Id)) continue;
+                foreach (var album in track.Albums)
+                    newTracks[track.Id].Albums.Add(newAlbums[album.Id]);
+                foreach (var artist in track.Artists)
+                    newTracks[track.Id].Artists.Add(newArtists[artist.Id]);
+            }
+
+            await dbContext.Tracks.AddRangeAsync(newTracks.Values.ToArray());
             await dbContext.SaveChangesAsync();
         }
     }

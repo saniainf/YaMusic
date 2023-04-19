@@ -13,34 +13,34 @@ public class AlbumModel
     public int Id { get; set; }
 
     [JsonPropertyName("volumes")]
-    public List<List<Track>> Volumes { get; set; }
+    public List<List<Track>> Volumes { get; set; } = new();
 
     [JsonPropertyName("coverUri")]
-    public string CoverUri { get; set; }
+    public string CoverUri { get; set; } = string.Empty;
 }
 
 public class Track
 {
     [JsonPropertyName("id")]
-    public string Id { get; set; }
+    public string Id { get; set; } = string.Empty;
 
     [JsonPropertyName("title")]
-    public string Title { get; set; }
+    public string Title { get; set; } = string.Empty;
 
     [JsonPropertyName("durationMs")]
     public int DurationMs { get; set; }
 
     [JsonPropertyName("artists")]
-    public List<Artist> Artists { get; set; }
+    public List<Artist> Artists { get; set; } = new();
 
     [JsonPropertyName("albums")]
-    public List<Album> Albums { get; set; }
+    public List<Album> Albums { get; set; } = new();
 
     [JsonPropertyName("lyricsAvailable")]
     public bool LyricsAvailable { get; set; }
 
     [JsonPropertyName("coverUri")]
-    public string CoverUri { get; set; }
+    public string CoverUri { get; set; } = string.Empty;
 }
 
 public class Artist
@@ -49,16 +49,16 @@ public class Artist
     public int Id { get; set; }
 
     [JsonPropertyName("name")]
-    public string Name { get; set; }
+    public string Name { get; set; } = string.Empty;
 
     [JsonPropertyName("cover")]
-    public Cover Cover { get; set; }
+    public Cover Cover { get; set; } = new();
 }
 
 public class Cover
 {
     [JsonPropertyName("uri")]
-    public string Uri { get; set; }
+    public string Uri { get; set; } = string.Empty;
 }
 
 
@@ -68,16 +68,16 @@ public class Album
     public int Id { get; set; }
 
     [JsonPropertyName("title")]
-    public string Title { get; set; }
+    public string Title { get; set; } = string.Empty;
 
     [JsonPropertyName("year")]
     public int Year { get; set; }
 
     [JsonPropertyName("coverUri")]
-    public string CoverUri { get; set; }
+    public string CoverUri { get; set; } = string.Empty;
 
     [JsonPropertyName("genre")]
-    public string Genre { get; set; }
+    public string Genre { get; set; } = string.Empty;
 
     [JsonPropertyName("trackCount")]
     public int TrackCount { get; set; }

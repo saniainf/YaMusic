@@ -185,7 +185,7 @@
             btnLoadAlbum.Name = "btnLoadAlbum";
             btnLoadAlbum.Size = new Size(110, 22);
             btnLoadAlbum.Text = "Обновить альбом";
-            btnLoadAlbum.Click += btnLoadAlbum_ClickAsync;
+            btnLoadAlbum.Click += btnLoadAlbum_Click;
             // 
             // btnLoadArtist
             // 

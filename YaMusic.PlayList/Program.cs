@@ -4,6 +4,7 @@ using YaMusic.PlayListView.Domain;
 using YaMusic.PlayListView.Forms;
 using YaMusic.PlayListView.Properties;
 using YaMusic.PlayListView.Repositories;
+using YaMusic.PlayListView.Services;
 
 namespace YaMusic.PlayListView
 {
@@ -14,9 +15,10 @@ namespace YaMusic.PlayListView
         {
             var dbContextBuilder = new DbContextOptionsBuilder<AppDbContext>();
             var dbContextOptions = dbContextBuilder.UseSqlServer(Settings.Default.ConnectionStrings).Options;
-            var repo = new MainRepository(dbContextOptions);
             var httpClient = new HttpClient();
-            var controller = new MainController(repo, httpClient);
+            var httpService = new AppHttpService(httpClient);
+            var repo = new MainRepository(dbContextOptions);
+            var controller = new MainController(repo, httpService);
 
             ApplicationConfiguration.Initialize();
             Application.Run(new FormMain(controller));

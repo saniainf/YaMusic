@@ -35,13 +35,13 @@ namespace YaMusic.PlayListView.Forms
                 if (playList.SelectedItems != null && playList.SelectedItems.Count > 0)
                 {
                     var trackId = (int)playList.SelectedItems[0].Tag;
-                    LoadArtistTabs(trackId);
-                    LoadAlbumTabs(trackId);
+                    LoadArtistTabsByTrack(trackId);
+                    LoadAlbumTabsByTrack(trackId);
                 }
             }
         }
 
-        private async void LoadArtistTabs(int trackId)
+        private async void LoadArtistTabsByTrack(int trackId)
         {
             var artistsTabs = await _controller.GetArtistsTabAsync(trackId);
             tabArtist.Controls.Clear();
@@ -51,22 +51,27 @@ namespace YaMusic.PlayListView.Forms
             }
         }
 
-        private async void LoadAlbumTabs(int trackId)
+        private async void LoadAlbumTabsByTrack(int trackId)
         {
-            var albumTab = await _controller.GetAlbumsTabAsync(trackId);
+            var albumTabs = await _controller.GetAlbumsTabAsync(trackId);
             tabAlbum.Controls.Clear();
-            foreach (var tab in albumTab)
+            foreach (var tab in albumTabs)
             {
                 tabAlbum.Controls.Add(tab);
             }
         }
 
-        private void btnLoadAlbum_ClickAsync(object sender, EventArgs e)
+        private async void btnLoadAlbum_Click(object sender, EventArgs e)
         {
             if (tabAlbum.TabPages.Count == 0) return;
-            var id = int.TryParse(tabAlbum.SelectedTab.Tag.ToString(), out int result) ? result : 0;
+            var selectedTab = tabAlbum.SelectedTab;
+            var id = int.TryParse(selectedTab.Tag.ToString(), out int result) ? result : 0;
             if (id == 0) return;
-            _controller.UpdateAlbum(id);
+            await _controller.UpdateAlbumAsync(id);
+            var newTab = await _controller.GetAlbumTabByIdAsync(id);
+            tabAlbum.Controls.Remove(selectedTab);
+            tabAlbum.Controls.Add(newTab);
+            tabAlbum.SelectedTab = newTab;
         }
 
         private void btnLoadArtist_Click(object sender, EventArgs e)

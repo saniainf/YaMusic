@@ -31,5 +31,41 @@ namespace YaMusic.PlayListView.Properties {
                 return ((string)(this["ConnectionStrings"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://music.yandex.ru/handlers/album.jsx?album=")]
+        public string AlbumConnectionString {
+            get {
+                return ((string)(this["AlbumConnectionString"]));
+            }
+            set {
+                this["AlbumConnectionString"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://music.yandex.ru/handlers/artist.jsx?artist=")]
+        public string ArtistConnectionString {
+            get {
+                return ((string)(this["ArtistConnectionString"]));
+            }
+            set {
+                this["ArtistConnectionString"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://music.yandex.ru/handlers/track.jsx?track=")]
+        public string TrackConnectionString {
+            get {
+                return ((string)(this["TrackConnectionString"]));
+            }
+            set {
+                this["TrackConnectionString"] = value;
+            }
+        }
     }
 }
