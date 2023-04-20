@@ -2,6 +2,7 @@
 using YaMusic.PlayListView.Domain;
 using YaMusic.PlayListView.Domain.Models;
 using YaMusic.PlayListView.Models;
+using YaMusic.PlayListView.Services.Models;
 
 namespace YaMusic.PlayListView.Repositories
 {
@@ -202,53 +203,64 @@ namespace YaMusic.PlayListView.Repositories
             return query.FirstOrDefault() ?? new();
         }
 
-        public async Task InsertTracksAsync(IEnumerable<TrackDto> tracks)
+        public async Task InsertTracksAsync(IEnumerable<Track> tracks)
         {
             using AppDbContext dbContext = new(_options);
-            Dictionary<int, AlbumDto> newAlbums = new();
-            Dictionary<int, ArtistDto> newArtists = new();
-            Dictionary<int, TrackDto> newTracks = new();
+            List<TrackDto> newTracks = new();
 
             foreach (var track in tracks)
             {
-                if (!dbContext.Tracks.Any(t => t.Id == track.Id))
+                var trackId = int.TryParse(track.Id, out int result) ? result : throw new InvalidCastException();
+
+                if (dbContext.Tracks.Any(t => t.Id == trackId)) continue;
+
+                var newTrack = new TrackDto()
                 {
-                    newTracks.Add(track.Id, new()
-                    {
-                        Id = track.Id,
-                        Title = track.Title,
-                        DurationMs = track.DurationMs,
-                        CoverUri = track.CoverUri,
-                        LyricsAvailable = track.LyricsAvailable
-                    });
-                    foreach (var album in track.Albums)
-                    {
-                        if (!newAlbums.ContainsKey(album.Id))
-                            if (!dbContext.Albums.Any(a => a.Id == album.Id))
-                                newAlbums.Add(album.Id, album);
-                            else
-                                newAlbums.Add(album.Id, dbContext.Albums.FirstOrDefault(a => a.Id == album.Id)!);
-                    }
-                    foreach (var artist in track.Artists)
-                    {
-                        if (!newArtists.ContainsKey(artist.Id))
-                            if (!dbContext.Artists.Any(a => a.Id == artist.Id))
-                                newArtists.Add(artist.Id, artist);
-                            else
-                                newArtists.Add(artist.Id, dbContext.Artists.FirstOrDefault(a => a.Id == artist.Id)!);
-                    }
-                }
-            }
-            foreach (var track in tracks)
-            {
-                if (!newTracks.ContainsKey(track.Id)) continue;
+                    Id = trackId,
+                    Title = track.Title,
+                    DurationMs = track.DurationMs,
+                    CoverUri = track.CoverUri,
+                    LyricsAvailable = track.LyricsAvailable
+                };
+
                 foreach (var album in track.Albums)
-                    newTracks[track.Id].Albums.Add(newAlbums[album.Id]);
+                {
+                    var newAlbum = dbContext.Albums.FirstOrDefault(a => a.Id == album.Id);
+                    if (newAlbum == null)
+                    {
+                        newAlbum = new AlbumDto()
+                        {
+                            Id = album.Id,
+                            Title = album.Title,
+                            Year = album.Year,
+                            Genre = album.Genre,
+                            TrackCount = album.TrackCount,
+                            CoverUri = album.CoverUri
+                        };
+                        dbContext.Albums.Add(newAlbum);
+                    }
+                    newTrack.Albums.Add(newAlbum);
+                }
+
                 foreach (var artist in track.Artists)
-                    newTracks[track.Id].Artists.Add(newArtists[artist.Id]);
+                {
+                    var newArtist = dbContext.Artists.FirstOrDefault(a => a.Id == artist.Id);
+                    if (newArtist == null)
+                    {
+                        newArtist = new ArtistDto()
+                        {
+                            Id = artist.Id,
+                            Name = artist.Name,
+                            CoverUri = artist.Cover.Uri
+                        };
+                        dbContext.Artists.Add(newArtist);
+                    }
+                    newTrack.Artists.Add(newArtist);
+                }
+                newTracks.Add(newTrack);
             }
 
-            await dbContext.Tracks.AddRangeAsync(newTracks.Values.ToArray());
+            await dbContext.Tracks.AddRangeAsync(newTracks.ToArray());
             await dbContext.SaveChangesAsync();
         }
     }

@@ -6,6 +6,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using YaMusic.PlayListView.Domain.Models;
 using YaMusic.PlayListView.Forms.Components;
+using YaMusic.PlayListView.Models;
 using YaMusic.PlayListView.Repositories;
 using YaMusic.PlayListView.Services;
 using YaMusic.PlayListView.Services.Models;
@@ -151,38 +152,7 @@ namespace YaMusic.PlayListView.Controllers
             var album = await _httpService.GetAlbumAsync(albumId);
             if (album is null || album.Volumes.Count == 0) return;
             var albumTracks = album.Volumes[0];
-
-            List<TrackDto> newTracks = new();
-            foreach (var track in albumTracks)
-            {
-                TrackDto newTrack = new()
-                {
-                    Id = int.TryParse(track.Id, out int result) ? result : throw new InvalidCastException(),
-                    Title = track.Title,
-                    DurationMs = track.DurationMs,
-                    CoverUri = track.CoverUri,
-                    LyricsAvailable = track.LyricsAvailable,
-                    Albums = track.Albums
-                        .Select(a => new AlbumDto()
-                        {
-                            Id = a.Id,
-                            Title = a.Title,
-                            Year = a.Year,
-                            Genre = a.Genre,
-                            TrackCount = a.TrackCount,
-                            CoverUri = a.CoverUri
-                        }).ToHashSet(),
-                    Artists = track.Artists
-                        .Select(a => new ArtistDto()
-                        {
-                            Id = a.Id,
-                            Name = a.Name,
-                            CoverUri = a.Cover.Uri
-                        }).ToHashSet()
-                };
-                newTracks.Add(newTrack);
-            }
-            await _repo.InsertTracksAsync(newTracks);
+            await _repo.InsertTracksAsync(albumTracks);
         }
     }
 }
