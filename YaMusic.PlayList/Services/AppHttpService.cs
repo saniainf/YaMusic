@@ -24,14 +24,13 @@ namespace YaMusic.PlayListView.Services
             _httpClient = httpClient;
         }
 
-        internal async Task<AlbumModel> GetAlbumAsync(int albumId)
+        internal async Task<AlbumModel> GetAlbumByIdAsync(int albumId)
         {
             AlbumModel album = new();
-            string response = string.Empty;
             try
             {
                 //using FileStream response = new("album.json", FileMode.Open);
-                response = await _httpClient.GetStringAsync($"{_albumUrl}{albumId}");
+                var response = await _httpClient.GetStringAsync($"{_albumUrl}{albumId}&lang=ru&external-domain=music.yandex.ru&overembed=false");
                 album = JsonSerializer.Deserialize<AlbumModel>(response) ?? album;
             }
             catch (Exception e)
@@ -39,6 +38,21 @@ namespace YaMusic.PlayListView.Services
                 MessageBox.Show(e.Message);
             }
             return album;
+        }
+
+        internal async Task<ArtistModel> GetTracksByArtistAsync(int artistId)
+        {
+            ArtistModel artist = new();
+            try
+            {
+                var response = await _httpClient.GetStringAsync($"{_artistUrl}{artistId}&what=tracks&sort=&dir=&period=month&lang=ru&external-domain=music.yandex.ru&overembed=false");
+                artist = JsonSerializer.Deserialize<ArtistModel>(response) ?? artist;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            return artist;
         }
     }
 }

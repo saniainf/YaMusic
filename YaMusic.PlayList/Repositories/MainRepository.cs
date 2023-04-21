@@ -15,6 +15,8 @@ namespace YaMusic.PlayListView.Repositories
             _options = options;
         }
 
+        #region select
+
         public async Task<PlayListViewModel> GetPlayListAsync(int playListId)
         {
             using AppDbContext dbContext = new(_options);
@@ -97,6 +99,26 @@ namespace YaMusic.PlayListView.Repositories
             return await query.ToListAsync();
         }
 
+        public async Task<AlbumViewModel> GetAlbumById(int albumId)
+        {
+            using AppDbContext dbContext = new(_options);
+
+            var query = await Task.Run(() =>
+            {
+                return dbContext.Albums
+                .Where(a => a.Id == albumId)
+                .Select(a => new AlbumViewModel()
+                {
+                    Id = a.Id,
+                    Title = a.Title,
+                    Genre = a.Genre ?? string.Empty,
+                    Year = a.Year ?? 0
+                });
+            });
+
+            return query.FirstOrDefault() ?? new();
+        }
+
         public async Task<IEnumerable<ArtistViewModel>> GetArtistsByTrackAsync(int trackId)
         {
             using AppDbContext dbContext = new(_options);
@@ -116,6 +138,24 @@ namespace YaMusic.PlayListView.Repositories
             });
 
             return await query.ToListAsync();
+        }
+
+        public async Task<ArtistViewModel> GetArtistByIdAsync(int artistId)
+        {
+            using AppDbContext dbContext = new(_options);
+
+            var query = await Task.Run(() =>
+            {
+                return dbContext.Artists
+                .Where(a => a.Id == artistId)
+                .Select(a => new ArtistViewModel()
+                {
+                    Id = a.Id,
+                    Name = a.Name ?? string.Empty
+                });
+            });
+
+            return query.FirstOrDefault() ?? new();
         }
 
         public async Task<IEnumerable<TrackViewModel>> GetTracksByPlayListAsync(int playListId)
@@ -183,25 +223,9 @@ namespace YaMusic.PlayListView.Repositories
             return await query.ToListAsync();
         }
 
-        public async Task<AlbumViewModel> GetAlbumById(int albumId)
-        {
-            using AppDbContext dbContext = new(_options);
+        #endregion
 
-            var query = await Task.Run(() =>
-            {
-                return dbContext.Albums
-                .Where(a => a.Id == albumId)
-                .Select(a => new AlbumViewModel()
-                {
-                    Id = a.Id,
-                    Title = a.Title,
-                    Genre = a.Genre ?? string.Empty,
-                    Year = a.Year ?? 0
-                });
-            });
-
-            return query.FirstOrDefault() ?? new();
-        }
+        #region insert
 
         public async Task InsertTracksAsync(IEnumerable<Track> tracks)
         {
@@ -263,5 +287,7 @@ namespace YaMusic.PlayListView.Repositories
             await dbContext.Tracks.AddRangeAsync(newTracks.ToArray());
             await dbContext.SaveChangesAsync();
         }
+
+        #endregion
     }
 }

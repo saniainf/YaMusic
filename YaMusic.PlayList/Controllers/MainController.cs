@@ -45,8 +45,9 @@ namespace YaMusic.PlayListView.Controllers
                     string.Join(", ", track.Albums.Select(a => a.Title)),
                 });
                 item.Tag = track.Id;
-                newTab.TrackList.Items.Add(item);
+                newTab.TrackListItems.Add(item);
             }
+            newTab.SetTrackList();
 
             return newTab;
         }
@@ -83,6 +84,33 @@ namespace YaMusic.PlayListView.Controllers
             }
 
             return tabs;
+        }
+
+        public async Task<ArtistTabPageComponent> GetArtistTabByIdAsync(int artistId)
+        {
+            var artist = await _repo.GetArtistByIdAsync(artistId);
+
+            ArtistTabPageComponent newTab = new()
+            {
+                Text = artist.Name,
+                Tag = artist.Id
+            };
+
+            var albums = await _repo.GetAlbumsByArtistAsync(artist.Id);
+            int i = 1;
+            foreach (var album in albums)
+            {
+                ListViewItem item = new(new string[]
+                {
+                    i++.ToString(), album.Title,
+                    album.Year.ToString(),
+                    album.Genre
+                });
+                item.Tag = album.Id;
+                newTab.AlbumList.Items.Add(item);
+            }
+
+            return newTab;
         }
 
         public async Task<IEnumerable<AlbumTabPageComponent>> GetAlbumsTabAsync(int trackId)
@@ -149,10 +177,19 @@ namespace YaMusic.PlayListView.Controllers
 
         public async Task UpdateAlbumAsync(int albumId)
         {
-            var album = await _httpService.GetAlbumAsync(albumId);
+            var album = await _httpService.GetAlbumByIdAsync(albumId);
             if (album is null || album.Volumes.Count == 0) return;
-            var albumTracks = album.Volumes[0];
-            await _repo.InsertTracksAsync(albumTracks);
+            foreach (var albumTracks in album.Volumes)
+            {
+                await _repo.InsertTracksAsync(albumTracks);
+            }
+        }
+
+        public async Task UpdateArtistAsync(int artistId)
+        {
+            var artist = await _httpService.GetTracksByArtistAsync(artistId);
+            if (artist is null || artist.Tracks.Count == 0) return;
+            await _repo.InsertTracksAsync(artist.Tracks);
         }
     }
 }

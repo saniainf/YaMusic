@@ -160,6 +160,7 @@
             // 
             tbxSearch.Name = "tbxSearch";
             tbxSearch.Size = new Size(340, 25);
+            tbxSearch.TextChanged += tbxSearch_TextChanged;
             // 
             // toolStripSeparator1
             // 

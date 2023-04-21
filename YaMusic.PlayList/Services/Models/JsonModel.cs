@@ -19,6 +19,21 @@ public class AlbumModel
     public string CoverUri { get; set; } = string.Empty;
 }
 
+public class ArtistModel
+{
+    [JsonPropertyName("id")]
+    public string Id { get; set; } = string.Empty;
+
+    [JsonPropertyName("name")]
+    public string Name { get; set; } = string.Empty;
+
+    [JsonPropertyName("cover")]
+    public Cover Cover { get; set; } = new();
+
+    [JsonPropertyName("tracks")]
+    public List<Track> Tracks { get; set; } = new();
+}
+
 public class Track
 {
     [JsonPropertyName("id")]

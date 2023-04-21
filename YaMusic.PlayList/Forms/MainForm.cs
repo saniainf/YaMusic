@@ -28,6 +28,38 @@ namespace YaMusic.PlayListView.Forms
             tabPlayLists.Controls.Add(playListTab);
         }
 
+        private async void btnLoadArtist_Click(object sender, EventArgs e)
+        {
+            if (tabArtist.TabPages.Count == 0) return;
+            var selectedTab = tabArtist.SelectedTab;
+            var id = int.TryParse(selectedTab.Tag.ToString(), out int result) ? result : 0;
+            if (id == 0) return;
+            await _controller.UpdateArtistAsync(id);
+            var newTab = await _controller.GetArtistTabByIdAsync(id);
+            tabArtist.Controls.Remove(selectedTab);
+            tabArtist.Controls.Add(newTab);
+            tabArtist.SelectedTab = newTab;
+        }
+
+        private async void btnLoadAlbum_Click(object sender, EventArgs e)
+        {
+            if (tabAlbum.TabPages.Count == 0) return;
+            var selectedTab = tabAlbum.SelectedTab;
+            var id = int.TryParse(selectedTab.Tag.ToString(), out int result) ? result : 0;
+            if (id == 0) return;
+            await _controller.UpdateAlbumAsync(id);
+            var newTab = await _controller.GetAlbumTabByIdAsync(id);
+            tabAlbum.Controls.Remove(selectedTab);
+            tabAlbum.Controls.Add(newTab);
+            tabAlbum.SelectedTab = newTab;
+        }
+
+        private void tbxSearch_TextChanged(object sender, EventArgs e)
+        {
+            var tab = tabPlayLists.SelectedTab as PlayListTabPageComponent;
+            tab?.SetFilteredTrackList(tbxSearch.Text);
+        }
+
         private void PlayListTrackList_SelectedIndexChanged(object? sender, EventArgs e)
         {
             if (sender is PlayListTrackListComponent playList)
@@ -59,24 +91,6 @@ namespace YaMusic.PlayListView.Forms
             {
                 tabAlbum.Controls.Add(tab);
             }
-        }
-
-        private async void btnLoadAlbum_Click(object sender, EventArgs e)
-        {
-            if (tabAlbum.TabPages.Count == 0) return;
-            var selectedTab = tabAlbum.SelectedTab;
-            var id = int.TryParse(selectedTab.Tag.ToString(), out int result) ? result : 0;
-            if (id == 0) return;
-            await _controller.UpdateAlbumAsync(id);
-            var newTab = await _controller.GetAlbumTabByIdAsync(id);
-            tabAlbum.Controls.Remove(selectedTab);
-            tabAlbum.Controls.Add(newTab);
-            tabAlbum.SelectedTab = newTab;
-        }
-
-        private void btnLoadArtist_Click(object sender, EventArgs e)
-        {
-            tbxSearch.Text = tabAlbum.SelectedTab?.Tag.ToString();
         }
     }
 }
