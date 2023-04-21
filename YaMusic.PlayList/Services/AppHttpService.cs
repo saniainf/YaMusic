@@ -15,26 +15,23 @@ namespace YaMusic.PlayListView.Services
         private readonly string _albumUrl = Settings.Default.AlbumConnectionString;
         private readonly string _artistUrl = Settings.Default.ArtistConnectionString;
         private readonly string _trackUrl = Settings.Default.TrackConnectionString;
-
-        private readonly Random _random;
-
+        
         // https://music.yandex.ru/handlers/artist.jsx?artist=291&what=tracks&sort=&dir=&period=month&lang=ru&external-domain=music.yandex.ru&overembed=false&ncrnd=0.377978113391237
         // https://music.yandex.ru/handlers/album.jsx?album=14574&lang=ru&external-domain=music.yandex.ru&overembed=false&ncrnd=0.8780324078257287
 
         public AppHttpService(HttpClient httpClient)
         {
             _httpClient = httpClient;
-            _random = new();
         }
 
         internal async Task<AlbumModel> GetAlbumAsync(int albumId)
         {
             AlbumModel album = new();
+            string response = string.Empty;
             try
             {
                 //using FileStream response = new("album.json", FileMode.Open);
-                var ncrnd = _random.NextDouble();
-                var response = await _httpClient.GetStringAsync($"{_albumUrl}{albumId}&lang=ru&external-domain=music.yandex.ru&overembed=false&ncrnd={ncrnd}");
+                response = await _httpClient.GetStringAsync($"{_albumUrl}{albumId}");
                 album = JsonSerializer.Deserialize<AlbumModel>(response) ?? album;
             }
             catch (Exception e)

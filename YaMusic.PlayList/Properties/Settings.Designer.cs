@@ -34,7 +34,7 @@ namespace YaMusic.PlayListView.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://music.yandex.ru/handlers/album.jsx?album=")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://music.yandex.ru/handlers/album.jsx?album=")]
         public string AlbumConnectionString {
             get {
                 return ((string)(this["AlbumConnectionString"]));
@@ -46,7 +46,7 @@ namespace YaMusic.PlayListView.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://music.yandex.ru/handlers/artist.jsx?artist=")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://music.yandex.ru/handlers/artist.jsx?artist=")]
         public string ArtistConnectionString {
             get {
                 return ((string)(this["ArtistConnectionString"]));
@@ -58,7 +58,7 @@ namespace YaMusic.PlayListView.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://music.yandex.ru/handlers/track.jsx?track=")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://music.yandex.ru/handlers/track.jsx?track=")]
         public string TrackConnectionString {
             get {
                 return ((string)(this["TrackConnectionString"]));

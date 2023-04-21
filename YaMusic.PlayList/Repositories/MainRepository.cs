@@ -225,7 +225,7 @@ namespace YaMusic.PlayListView.Repositories
 
                 foreach (var album in track.Albums)
                 {
-                    var newAlbum = dbContext.Albums.FirstOrDefault(a => a.Id == album.Id);
+                    var newAlbum = await dbContext.Albums.FindAsync(album.Id);
                     if (newAlbum == null)
                     {
                         newAlbum = new AlbumDto()
@@ -244,7 +244,7 @@ namespace YaMusic.PlayListView.Repositories
 
                 foreach (var artist in track.Artists)
                 {
-                    var newArtist = dbContext.Artists.FirstOrDefault(a => a.Id == artist.Id);
+                    var newArtist = await dbContext.Artists.FindAsync(artist.Id);
                     if (newArtist == null)
                     {
                         newArtist = new ArtistDto()
